@@ -9,8 +9,8 @@ const Hero = () => {
     >
       <div className="w-full h-full pt-16 flex flex-col">
         <div className="text-center">
-          <h1 className="title">Repara tu iPhone en tu puerta.</h1>
-          <p className="paragraph">
+          <h1 className="title mb-4 md:mb-0">Repara tu iPhone en tu puerta.</h1>
+          <p className="paragraph mt-2">
             Reparamos la pantalla y bateria de tu iPhone sin que te muevas de tu
             casa.
           </p>

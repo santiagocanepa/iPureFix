@@ -13,8 +13,14 @@ export const metadata = {
   title: "Reparación de iPhone a Domicilio.",
   description: "Reparamos la pantalla y bateria de tu iPhone sin que te muevas de tu casa.",
   keywords: ["iPhone", "Bateria", "Pantalla", "Cambio Bateria", "Cambio Pantalla", "Domicilio", "Reparar", "Modulo", "Apple", "Celulares", "Reparación"],
-  author: "iPure Company",
+  author: "PoderiFy",
   url: "https://iPureFix.com",
+  icons: {
+    icon: ['/logo/favicon.ico?v=4'],
+    apple: ['/logo/apple-touch-icon.png'],
+    shortcut: ['/logo/apple-touch-icon.png']
+  },
+  manifest: '/logo/site.webmanifest'
 };
 
 export default function RootLayout({ children }) {
