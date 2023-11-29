@@ -15,7 +15,6 @@ export const metadata = {
   keywords: ["iPhone", "Bateria", "Pantalla", "Cambio Bateria", "Cambio Pantalla", "Domicilio", "Reparar", "Modulo", "Apple", "Celulares", "Reparación"],
   author: "iPure Company",
   url: "https://iPureFix.com",
-  image: "https://iPureFix.com/img/logo.png",
 };
 
 export default function RootLayout({ children }) {

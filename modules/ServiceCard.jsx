@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-const ServiceCard = ({ title, img, alt, description, i}) => {
+const ServiceCard = ({ title, img, alt, description}) => {
   return (
     <div className="w-[280px] h-[250px]">
-      <div className="w-full h-full py-8 gap-y-12 flex flex-col bg-filter rounded-2xl ">
+      <div className="w-full h-full sm:px-0 px-4 py-8 gap-y-12 flex flex-col bg-filter rounded-2xl ">
         <div className="w-full flex items-center">
           <Image
             src={img}
